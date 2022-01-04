@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".profileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <TextView
+        android:id="@+id/uap"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/white"
+        android:text="Update Admin Profile"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/ucompanyname"
+        android:layout_width="190dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/white"
+        android:hint="@string/company_name" />
+
+    <EditText
+        android:id="@+id/ucompanyaddress"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/white"
+        android:hint="@string/company_address" />
+
+    <EditText
+        android:id="@+id/uadminusername"
+        android:background="@android:color/white"
+        android:layout_marginTop="20dp"
+        android:layout_width="190dp"
+        android:layout_height="25dp"
+        android:hint="@string/admin_user_name" />
+
+    <EditText
+        android:id="@+id/uuserpassword"
+        android:background="@android:color/white"
+        android:layout_marginTop="20dp"
+        android:layout_width="190dp"
+        android:layout_height="25dp"
+        android:hint="@string/user_password" />
+
+    <EditText
+        android:id="@+id/uconfirmpassword"
+        android:background="@android:color/white"
+        android:layout_marginTop="20dp"
+        android:layout_width="190dp"
+        android:layout_height="25dp"
+        android:hint="@string/retype_password" />
+
+    <EditText
+        android:id="@+id/ucompanylogo"
+        android:background="@android:color/white"
+        android:layout_marginTop="20dp"
+        android:layout_width="190dp"
+        android:layout_height="25dp"
+        android:hint="@string/company_logo" />
+
+    <Button
+        android:id="@+id/usave"
+        android:layout_marginTop="10dp"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="Save" />
+
+</LinearLayout>

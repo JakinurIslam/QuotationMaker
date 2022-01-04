@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Quotation Maker</string>
+    <string name="company_name">company name</string>
+    <string name="company_address">company address</string>
+    <string name="admin_user_name">user name</string>
+    <string name="user_password">user password</string>
+    <string name="retype_password">retype password</string>
+    <string name="company_logo">company logo</string>
+    <string name="create">Create</string>
+    <string name="save">Save</string>
+    <string name="already_registered">already registered?</string>
+    <string name="not_registered">Register?</string>
+    <string name="login_now">Login Now</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+
+</resources>
